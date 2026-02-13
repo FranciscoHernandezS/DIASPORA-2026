@@ -1,9 +1,9 @@
-numeros = ['infotep', 5 ,7.8 ,False,1]
+numeros = [1, 5 ,7 , 15, 1, 99 , "f"]
 
-numeros[0] = "diaspora"
+del numeros[6]
 
-print(f'\nla lista renovada es : {numeros}')
+print(f'numeros =  {numeros}')
 
-numeros[1] = numeros[3]
+del numeros[0]
 
-print(f'\nla lista con sustitutos es : {numeros}')
+print(f'el nuevo listado es : {numeros}')
