@@ -1,2 +1,4 @@
-numeros = [10, 5 ,7 ,2,1]
-print(f'\nlos elementos de la lista : {numeros}')
+numeros = ['infotep', 5 ,7.8 ,False,1]
+# print(f'\nlos elementos de la lista : {numeros}')
+
+print(f'\nla primera posicion es : {numeros[1]}')
